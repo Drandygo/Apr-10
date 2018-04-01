@@ -12,14 +12,13 @@ require(tidyverse)
 ```
 
 
-## Use the Iris dataset
+## Use the ucdavis1 dataset
 
-Find two species that have significantly different petal lengths. Show they are different with boxplots and a t-test.  
+From the ucdavis1 data set in tigerstats package test these two different hypothesis. Use both  
+graphical displays with boxplots and inferential tests with t.tests  
 
-```{r }
-mydata <- iris
-View(mydata)
-```
+1. $H_0$ The GPA of Males sitting in the Front seats is the same as that of Females in the Middle seats  
+2. $H_0$ The GPA of Males sitting in the Middle seats is the same as that of Females in the Front seats 
 
 ## Including Plots
 
